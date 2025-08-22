@@ -17,3 +17,11 @@ Ejemplo de ejecución:
 
 IMC: 18.7 => Obesidad
 """
+numero = int(input("Introduce un número: "))
+
+if numero < 0:
+    print("Negativo")   
+elif numero == 0:
+    print("Cero")
+else:
+    print("Positivo")
